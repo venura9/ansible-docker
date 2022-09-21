@@ -1,8 +1,8 @@
 # FROM centos:7
 FROM oraclelinux:9-slim
 
-ENV LANG en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
+# ENV LANG en_US.UTF-8
+# ENV LC_ALL en_US.UTF-8
 
 RUN yum check-update; \
     yum install -y gcc libffi-devel python3 epel-release; \
